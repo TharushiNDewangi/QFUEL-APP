@@ -5,5 +5,86 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UserUpdateFuelDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text=""
+            android:textColor="#1C1C1C"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/joinlocation"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edittextstyle"
+            android:drawablePadding="10dp"
+            android:hint="Enter your Station Location"
+            android:padding="20dp"
+            android:textColorHint="#1C1C1C" />
+
+        <EditText
+            android:id="@+id/jointype"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextstyle"
+            android:drawablePadding="10dp"
+            android:hint="Enter Fuel Type"
+            android:padding="20dp"
+            android:textColorHint="#1C1C1C" />
+
+        <EditText
+            android:id="@+id/joinstart"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextstyle"
+            android:drawablePadding="10dp"
+            android:hint="Enter Fuel Arrival Time"
+            android:padding="20dp"
+            android:textColorHint="#1C1C1C" />
+
+        <EditText
+            android:id="@+id/joinend"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextstyle"
+            android:drawablePadding="10dp"
+            android:hint="Enter Fuel End Time"
+            android:padding="20dp"
+            android:textColorHint="#1C1C1C" />
+
+
+        <Button
+            android:id="@+id/joinfuelsubmit"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:text="Submit"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

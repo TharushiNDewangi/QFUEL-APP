@@ -25,7 +25,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:clickable="true"/>
 
     </androidx.core.widget.NestedScrollView>
 
@@ -45,7 +46,9 @@
             android:id="@+id/text_view_searchres"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:clickable="true"/>
+
 
     </androidx.core.widget.NestedScrollView>
 
@@ -65,18 +68,30 @@
         app:layout_constraintVertical_bias="0.452" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="342dp"
-        android:layout_height="45dp"
+        android:id="@+id/editTextTextnerest"
+        android:layout_width="242dp"
+        android:layout_height="37dp"
         android:ems="10"
         android:hint="Search Nearest Fuel Stations"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.224"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.053" />
+
+    <Button
+        android:id="@+id/searchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

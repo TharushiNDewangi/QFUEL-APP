@@ -16,7 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QFUEL"
         android:usesCleartextTraffic="true">
-        <activity android:name=".UserUpdateFuelDetails"></activity>
+        <activity android:name=".AdminTasksNAV"></activity>
+        <activity android:name=".JoinedQueueUser" />
+        <activity android:name=".JoinQueue" />
+        <activity android:name=".UserUpdateFuelDetails" />
         <activity android:name=".UserAddFuelDetails" />
         <activity android:name=".AdminUpdateFuel" />
         <activity android:name=".AdminFuelDetails" />

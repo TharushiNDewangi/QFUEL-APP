@@ -21,6 +21,13 @@ public class StationOwner {
         End = end;
     }
 
+    public StationOwner(String location, String type, String start, String end) {
+        Location = location;
+        Type = type;
+        Start = start;
+        End = end;
+    }
+
     public String getId() {
         return Id;
     }
@@ -60,5 +67,6 @@ public class StationOwner {
     public void setEnd(String end) {
         End = end;
     }
+
 }
 

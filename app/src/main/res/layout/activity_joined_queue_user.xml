@@ -6,4 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".JoinedQueueUser">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="AVAILABLE IN QUEUE :"
+            android:textColor="#1C1C1C"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/joinednum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="ww"
+            android:textColor="#F44336"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+
+        <Button
+            android:id="@+id/joinfuelsubmit"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:text="ALREADY YOU JOINED"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/beforeExit"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:text="Exit before pump fuel"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/afterExit"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:text="Exit after pump fuel"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="WELL COME"
+            android:textColor="#111212"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -45,7 +45,7 @@ public class AdminLogin extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else{
-                        Intent intent = new Intent(getApplicationContext(), AdminHome.class);
+                        Intent intent = new Intent(getApplicationContext(), AdminTasksNAV.class);
                         startActivity(intent);
                     }
                 }

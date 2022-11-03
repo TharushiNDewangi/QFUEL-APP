@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/adminadaptorlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="larntech"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/adminadaptortype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adminadaptorlocation"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="larntech"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/adminadaptorstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adminadaptortype"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="larntech"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/adminadaptorend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adminadaptorstart"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="larntech"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+
+            app:srcCompat="@android:drawable/ic_menu_directions" />
+
+    </RelativeLayout>
+</LinearLayout>

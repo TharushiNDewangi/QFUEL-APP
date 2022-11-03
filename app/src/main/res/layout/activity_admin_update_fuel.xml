@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdminUpdateFuel">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,7 +26,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/adminemail"
+            android:id="@+id/updatelocation"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -33,12 +34,11 @@
             android:background="@drawable/edittextstyle"
             android:drawablePadding="10dp"
             android:hint="Enter your Station Location"
-            android:inputType="textEmailAddress"
             android:padding="20dp"
             android:textColorHint="#1C1C1C" />
 
         <EditText
-            android:id="@+id/location"
+            android:id="@+id/updatetype"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -50,7 +50,7 @@
             android:textColorHint="#1C1C1C" />
 
         <EditText
-            android:id="@+id/adminpass"
+            android:id="@+id/updatestart"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -58,12 +58,11 @@
             android:background="@drawable/edittextstyle"
             android:drawablePadding="10dp"
             android:hint="Enter Fuel Arrival Time"
-            android:inputType="textPassword"
             android:padding="20dp"
             android:textColorHint="#1C1C1C" />
 
         <EditText
-            android:id="@+id/adminconfirmpass"
+            android:id="@+id/updateend"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -71,13 +70,12 @@
             android:background="@drawable/edittextstyle"
             android:drawablePadding="10dp"
             android:hint="Enter Fuel End Time"
-            android:inputType="textPassword"
             android:padding="20dp"
             android:textColorHint="#1C1C1C" />
 
 
         <Button
-            android:id="@+id/adminssingup"
+            android:id="@+id/updatesubmit"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
@@ -87,5 +85,9 @@
             android:textColor="#fff" />
 
     </LinearLayout>
-    
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
